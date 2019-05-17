@@ -1,0 +1,84 @@
+/*
+* Ruth Wilhelm
+* Due Date 
+* Project Name and Description 
+*/ 
+
+/* The universial selector */
+
+* { /* This zeros all the margins, borders, and padding for my page so that they are specific to the element. */ 
+    margin: 0px;
+    border: 0px; 
+    padding: 0px;
+} 
+
+body { /* This sets the general background color, font, font color, and margin settings for my page. The background is a steel blue for the ocean. The font color is navy blue also for the ocean. */
+    background-color: lightsteelblue; 
+    font-family: "Courier New", "Times", monospace; 
+    margin: 15px; 
+    color: navy; 
+} 
+
+h1 { /* The h1 is my heading for the page which says "Save the Sea Turtles!" It is underlined, overlined, and centered. */ 
+    text-decoration: underline overline; 
+    text-align: center 
+}
+
+h3 { /* The h3s are the titles for the sections of my page. The titles are underlines and have some extra padding and margin to help give the parargaphs "room to breathe". */ 
+    text-decoration: underline; 
+    padding: 15px; 
+    margin: 15px; 
+}
+
+p { /* My paragraphs include the content/facts of my page. They are indented and also have some extra margin to add room. They are justified since the images are floating next to them. */ 
+    text-indent: 20px; 
+    text-align: justify; 
+    margin: 10px; 
+}
+
+header { /* The header includes the h1/title of my page. Its bottom border is dashed and navy. It also has some extra padding. */ 
+    border-bottom: dashed navy; 
+    padding: 30px; 20px; 
+}
+
+main { /* The main section of my page includes h3s/section titles and paragraphs. Since it is mostly text, I gave it some more padding and margin to increase readability. It have a solid navy bottom border like the footer. */ 
+    border-bottom: solid navy; 
+    padding: 20px; 10px; 
+    margin: 10px; 
+}
+
+footer { /* The footer includes the sources, an image, and the "Reproduced for Educational Purposes Only" tag. It has less padding and margin since it has less text. It still has the same bottom border. */ 
+    padding: 10px; 
+    margin: 10px; 
+    border-bottom: solid navy; 
+}
+
+img { /* The pictures have a dotted light green border. I unfloated them for the row of pictures. All the images not in the row are floated in different directions. */ 
+    border: dotted lightgreen; 
+    width: 200px; 
+    float: clear; 
+}
+
+#first { /* The first picture has extra margin since it is floated to the left of text. */ 
+    float: left; 
+    width: 200px;
+    margin: 5px; 
+}
+
+#second { /* The second picture is floated to the right and slightly larger but still has extra margin like the first. */ 
+    float: right; 
+    width: 250px; 
+    margin: 5px; 
+}
+
+#waterbottle { /* The image of the water bottle near the bottom of the page is floated left and has more margin. */ 
+    float: left; 
+    width: 200px; 
+    margin: 20px; 
+}
+
+#last { /* The last picture is floated right but is smaller with less margin. */ 
+    float: right; 
+    width: 140px; 
+    margin: 10px;  
+}
